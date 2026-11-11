@@ -9,9 +9,9 @@ import tools
 from secret import GEMINI_API_KEY
 
 # ---------- 설정 ----------
-URL = "http://localhost:11434/v1/chat/completions" #("https://generativelanguage.googleapis.com/"
-       #"v1beta/openai/chat/completions")
-MODEL = "qwen3:0.6b" #"gemini-3.5-flash-lite"
+URL = ("https://generativelanguage.googleapis.com/"
+       "v1beta/openai/chat/completions")
+MODEL = "gemini-3.5-flash-lite"
 MAX_TURNS = 5          # 반복 상한. 이 바퀴 수를 넘기면 멈춘다
 
 # ---------- 도구 목록: 모델에게 보여 줄 설명 ----------
